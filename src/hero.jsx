@@ -1,9 +1,10 @@
 import React from "react";
+import HeroImg from '../public/hero.jpg'
 
 function Hero() {
     return (
         <div className="hero--section">
-            <img src="../public/hero.jpg" />
+            <img src={HeroImg} />
             <div className="hero--profile">
                 <h1>Laura Smith</h1>
                 <p className="hero--title">Frontend Developer</p>
