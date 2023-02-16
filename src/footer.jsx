@@ -8,10 +8,18 @@ import GithubLogo from '../public/GitHub Icon.jpg'
 function Footer() {
     return (
         <footer>
-            <img src={TwitterLogo} alt="" />
-            <img src={FBLogo} alt="" />
-            <img src={IGLogo} alt="" />
-            <img src={GithubLogo} alt="" />
+            <a href="#">
+                <img src={TwitterLogo} alt="" />
+            </a>
+            <a href="#">
+                <img src={FBLogo} alt="" />
+            </a>
+            <a href="#">
+                <img src={IGLogo} alt="" />
+            </a>
+            <a href="#">
+                <img src={GithubLogo} alt="" />
+            </a>
         </footer>
     )
 }
