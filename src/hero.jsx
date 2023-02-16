@@ -1,5 +1,7 @@
 import React from "react";
 import HeroImg from '../public/hero.jpg'
+import MailEmail from '../public/Mailemail.jpg'
+import LinkedIn from '../public/Icon-Font Awesome Free-Brands-L-linkedinlinkedin.jpg'
 
 function Hero() {
     return (
@@ -12,11 +14,11 @@ function Hero() {
             </div>
             <div className="hero--buttons">
                 <button>
-                    <img src="../public/Mailemail.jpg" alt="" />
+                    <img src={MailEmail} alt="" />
                     Email
                 </button>
                 <button id="linkedIn">
-                    <img src="../public/Icon-Font Awesome Free-Brands-L-linkedinlinkedin.jpg" alt="" />
+                    <img src={LinkedIn} alt="" />
                     LinkedIn
                 </button>
             </div>
