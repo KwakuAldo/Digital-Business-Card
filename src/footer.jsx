@@ -6,7 +6,7 @@ function Footer() {
             <img src="../public/Twitter Icon.jpg" alt="" />
             <img src="../public/Facebook Icon.jpg" alt="" />
             <img src="../public/Instagram Icon.jpg" alt="" />
-            <img src="../public/GitHub Icon.jpg" alt="" />
+            <img src="/Github Icon.jpg" alt="" />
         </footer>
     )
 }
